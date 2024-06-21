@@ -4,9 +4,9 @@ from tkinter import messagebox, ttk
 
 # Burger menu with prices
 menu = {
-    1: ("Aloo Tikki", 5),
+    1: ("Aloo-Tikki", 5),
     2: ("Maharaja", 10),
-    3: ("Mac Special", 15)
+    3: ("Mac-Special", 15)
 }
 
 # Function to start the application
