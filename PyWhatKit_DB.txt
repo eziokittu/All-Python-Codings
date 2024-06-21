@@ -1,0 +1,40 @@
+Date: 16/3/2022
+Time: 1:51
+Phone Number: +91 8902686826
+Message: This is an automated message
+--------------------
+Date: 16/3/2022
+Time: 1:56
+Phone Number: +91 8902686826
+Message: This is an automated message
+--------------------
+Date: 16/3/2022
+Time: 1:57
+Phone Number: +91 8902686826
+Message: This is an automated message
+--------------------
+Date: 16/3/2022
+Time: 11:8
+Phone Number: +91 8902686826
+Message: This is an automated message. [Automated at - 11:8:2]
+--------------------
+Date: 16/3/2022
+Time: 11:12
+Phone Number: +91 7063990059
+Message: Hi, Apurva [This is an automated message. Automated at - 11:12:26]
+--------------------
+Date: 16/3/2022
+Time: 11:15
+Phone Number: +91 7063990059
+Message: Hi, Apurva [This is an automated message. Automated at - 11:15:44]
+--------------------
+Date: 16/3/2022
+Time: 22:3
+Phone Number: +91 9774616916
+Message: Hi, Jhil [This is an automated message. Automated at - 22:3:4]
+--------------------
+Date: 16/3/2022
+Time: 22:5
+Phone Number: +91 9774616916
+Message: Hi, Jhil [This is an automated message. Automated at - 22:5:0]
+--------------------

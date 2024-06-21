@@ -1,0 +1,35 @@
+<MyLayout>
+
+    # adding colours to background is same as Lables
+
+    # canvas.before:
+    #     Color:
+    #         rgba: (240/255, 240/255, 200/255, 1)
+    #     Rectangle:
+    #         pos: self.pos
+    #         size: self.size
+
+    # background can also be coloured from the python file
+
+	BoxLayout:
+		orientation: "vertical"
+		size: root.width, root.height
+
+		spacing: 10
+		padding: 20
+
+		Label:
+			text: "This is a Label"
+			font_size: 96
+			background_color: (0,0,1,1)
+			canvas.before:
+				Color:
+					rgba: self.background_color
+				Rectangle:
+					size: self.size
+					pos: self.pos
+
+		Button:
+			text: "This is a Button"
+			background_normal: ""
+			background_color: (200/255.0, 100/255.0, 100/255.0, 1)

@@ -1,0 +1,26 @@
+<Button>
+    font_size: 32
+    # remember t ouse size_hint on button when using float layout
+    size_hint: (0.3, 0.3)
+
+<MyLayout>
+
+    BoxLayout:
+        orientation: "vertical"
+        size: root.width, root.height
+
+        Label:
+            id: name_label
+            text: "This text will updated"
+            font_size: 32
+
+        TextInput:
+            id: name_input
+            multiLine: False
+            size_hint: (1, 0.5)
+
+        Button:
+            text: "Update text"
+            size_hint: (1, 0.5)
+            font_size: 32
+            on_press: root.ButtonPress()

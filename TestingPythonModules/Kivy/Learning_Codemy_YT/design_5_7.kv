@@ -1,0 +1,44 @@
+# 5 - Design Language
+# 6 - Builder Class
+# 7 - Button Colors
+
+#:import utils kivy.utils
+
+<MyGridLayout>
+	
+	name: name
+	age: age
+	roll: roll
+	
+	GridLayout:
+		cols: 1
+		size: root.width, root.height
+
+		GridLayout:
+			cols: 2
+
+			Label:
+				text: "Name"
+			TextInput:
+				id: name
+				multiLine: False
+
+			Label:
+				text: "Age"
+			TextInput:
+				id: age
+				multiLine: False
+
+			Label:
+				text: "Roll"
+			TextInput:
+				id: roll
+				multiLine: False
+
+		Button:
+			text: "Submit"
+			font_size: 36
+			on_press: root.pressSubmit()
+			background_normal: ""
+			#background_color: (238/255.0, 250/255.0, 0,1)
+			background_color: utils.get_color_from_hex("#eefa00")

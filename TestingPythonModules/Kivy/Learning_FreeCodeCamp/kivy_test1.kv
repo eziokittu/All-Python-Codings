@@ -1,0 +1,29 @@
+BoxLayoutExample:
+<BoxLayoutExample>:
+    orientation: "vertical"
+    Button:
+        text: "1"
+    Button:
+        text: "2.1"
+    Button:
+        text: "2.2"
+    Button:
+        text: "3"
+
+<MainWidget>:
+    Button:
+        text: "Press me!"
+        # size: 400, 200 # these coordinates should not be used since
+        # pos: 100, 200  # different screens will have diff pixel sizes
+        size: "200dp", "100dp"
+        pos: "100dp", "200dp"
+    Label:
+        text: "Press me! 2"
+        size: "200dp", "100dp"
+        pos: "300dp", "200dp"
+        color: "red"
+    Button:
+        text: "Press me! 2"
+        size: "200dp", "100dp"
+        pos: "100dp", "300dp"
+        color: "red"

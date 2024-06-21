@@ -1,0 +1,3 @@
+[2021-10-24 13:33:42.707960] 2 KG Chicken daily
+[2021-10-24 13:34:01.041607] Chicken Stew 1 litre daily
+[2021-10-24 13:34:31.377566] Mayonnaise and Chesse atleast 500 gms daily

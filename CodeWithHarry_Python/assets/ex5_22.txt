@@ -1,0 +1,4 @@
+[2021-06-09 02:01:13.378052] jogging daily for atleast 1 hour
+[2021-06-09 02:01:35.388429] jumping
+[2021-06-09 18:05:20.375841] push ups x10 daily
+[2021-06-09 18:05:51.891564] long jump to touch house ceiling

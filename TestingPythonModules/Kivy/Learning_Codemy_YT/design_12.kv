@@ -1,0 +1,37 @@
+<MyLayout>
+
+	BoxLayout:
+		orientation: "horizontal"
+		size: root.width, root.height
+
+        BoxLayout:
+            orientation: "vertical"
+            spacing: 10
+		    padding: 20
+
+            Label:
+                text: "This is a Label"
+                font_size: 28
+                background_color: (0,0,1,1)
+                canvas.before:
+                    Color:
+                        rgba: self.background_color
+                    Rectangle:
+                        size: self.size
+                        pos: self.pos
+
+            Button:
+                text: "This is a Button"
+                background_normal: ""
+                background_color: (200/255.0, 100/255.0, 100/255.0, 1)
+                
+        BoxLayout:
+
+            size: root.width, root.height
+            spacing: 10
+		    padding: 20
+
+            Image:
+                source: "C:/Users/bodhi/Pictures/Images from browser/FC6_Anton.jpg"
+                #allow_stretch: False
+                keep_ratio: True

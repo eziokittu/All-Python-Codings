@@ -1,0 +1,106 @@
+<Button>
+    font_size: 32
+    # remember t ouse size_hint on button when using float layout
+    size_hint: (0.2, 0.2)
+
+<MyLayout>
+
+    BoxLayout:
+        orientation: "vertical"
+        size: root.width, root.height
+
+        TextInput:
+            id: id_textinput
+            text: "0"
+            halign: "right"
+            font_size: 42
+            size_hint: (1, .16)
+            background_color: (1, 230/255, 220/255, 1)
+
+
+        GridLayout:
+            cols: 4
+            rows: 6
+
+            Button:
+                text: "%"
+
+            Button:
+                text: "+/-"
+                on_press: root.button_function_posneg()
+
+            Button:
+                id: id_button_clear
+                text: "C"
+                on_press: root.button_function_clear()
+
+            Button:
+                id: id_button_remove
+                text: u"\u00AB"  # new thing to learn about
+                on_press: root.button_function_remove()
+
+            Button:
+                text: "7"
+                background_color: (157/255, 157/255, 157/255)
+                on_press: root.button_press_numbers(7)
+            Button:
+                text: "8"
+                background_color: (157/255, 157/255, 157/255)
+                on_press: root.button_press_numbers(8)
+            Button:
+                text: "9"
+                background_color: (157/255, 157/255, 157/255)
+                on_press: root.button_press_numbers(9)
+            Button:
+                text: "/" 
+                on_press: root.button_function_math("/")
+
+            Button:
+                text: "4"
+                background_color: (157/255, 157/255, 157/255)
+                on_press: root.button_press_numbers(4)
+            Button:
+                text: "5"
+                background_color: (157/255, 157/255, 157/255)
+                on_press: root.button_press_numbers(5)
+            Button:
+                text: "6"
+                background_color: (157/255, 157/255, 157/255)
+                on_press: root.button_press_numbers(6)
+            Button:
+                text: "x"
+                on_press: root.button_function_math("x")
+
+            Button:
+                text: "1"
+                background_color: (157/255, 157/255, 157/255)
+                on_press: root.button_press_numbers(1)
+            Button:
+                text: "2"
+                background_color: (157/255, 157/255, 157/255)
+                on_press: root.button_press_numbers(2)
+            Button:
+                text: "3"
+                background_color: (157/255, 157/255, 157/255)
+                on_press: root.button_press_numbers(3)
+            Button:
+                text: "+" 
+                on_press: root.button_function_math("+")
+
+            Button:
+                text: "0"
+                background_color: (157/255, 157/255, 157/255)
+                on_press: root.button_press_numbers()
+            Button:
+                text: "."
+                background_color: (157/255, 157/255, 157/255)
+                on_press: root.button_press_dot()
+            Button:
+                text: "="
+                background_color: (157/255, 157/255, 157/255)
+                # background_normal: ""
+                # background_color: (0,200/255,0, 1)
+                on_press: root.button_function_equals()
+            Button:
+                text: "-" 
+                on_press: root.button_function_math("-")
